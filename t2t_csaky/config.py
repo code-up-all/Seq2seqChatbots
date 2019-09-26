@@ -20,7 +20,7 @@ FLAGS = {
     'memory_fraction': 0.95,    # Fraction of total GPU memory to use.
     'keep_checkpoints': 3,      # How many checkpoints to keep on disk.
     'train_steps': 1000000,
-    'save_every_n_hour': 0.5,     # Save checkpoints every n hours.
+    'save_every_n_hour': 1,     # Save checkpoints every n hours.
     'save_every_n_secs': 1800,  # Every n seconds, overrides hour param.
     'evaluation_steps': 1000,   # Number of evaluation steps at each cycle.
     'evaluation_freq': 1000,    # Evaluation cycle is run every n train steps.
