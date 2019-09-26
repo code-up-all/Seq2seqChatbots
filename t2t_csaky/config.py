@@ -8,8 +8,8 @@ FLAGS = {
     't2t_usr_dir': 't2t_csaky',  # Tensor2tensor imports from this dir.
     'data_dir': 'data_dir/DailyDialog/test_repo',
    # 'train_dir': 'train_dir/DailyDialog/seq2seq_base-base_with_numbers',
-    'train_dir': '../drive/My\ Drive/train_dir/DailyDialog/seq2seq_base-base_with_numbers',
-    'decode_dir': '../drive/My\ Drive/decode_dir/DailyDialog/trf_20_dropout-base',
+    'train_dir': 'train_dir/DailyDialog/seq2seq_base-base_with_numbers',
+    'decode_dir': 'decode_dir/DailyDialog/trf_20_dropout-base',
     'problem': 'daily_dialog_chatbot',
     'model': 'transformer',
     'hparams': '',  # This is empty if we use hparams defined in this file.
