@@ -6,9 +6,9 @@ for the current run. This file will also be copied to the provided directory.
 
 FLAGS = {
     't2t_usr_dir': 't2t_csaky',  # Tensor2tensor imports from this dir.
-    'data_dir': 'data_dir/DailyDialog/test_repo',
-    'train_dir': 'train_dir/DailyDialog/seq2seq_base-base_with_numbers',
-    'decode_dir': 'decode_dir/DailyDialog/trf_20_dropout-base',
+    'data_dir': 'data_dir/DailyDialog/test_repo2',
+    'train_dir': 'train_dir/DailyDialog/seq2seq_base-base_with_numbers2',
+    'decode_dir': 'decode_dir/DailyDialog/trf_20_dropout-base2',
     'problem': 'daily_dialog_chatbot',
     'model': 'transformer',
     'hparams': '',  # This is empty if we use hparams defined in this file.
@@ -27,8 +27,8 @@ FLAGS = {
 
     # Decoding related flags.
     'batch_size': 32,
-    'output_file_name': 'inference_at_11k.txt',  # Save the inference outputs.
-    'input_file_name': 'NCM_examples.txt',  # Read inputs to be fed.
+    'output_file_name': 'inference_at_11k2.txt',  # Save the inference outputs.
+    'input_file_name': 'NCM_examples2.txt',  # Read inputs to be fed.
     'decode_mode': 'file',  # Can be: interactive, file, dataset.
     'beam_size': 10,
     'return_beams': 'True'  # If False return only top beam, else beam_size.
